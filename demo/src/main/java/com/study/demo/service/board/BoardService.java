@@ -36,8 +36,8 @@ public class BoardService {
     public Long update(Long id, BoardUpdateRequestDto requestDto) {
         Board board = boardRepository.findById(id)
                                         .orElseThrow(() ->
-                                                new IllegalIdentifierException("No such data" + id));
-        board.update(requestDto.getTitle(), board.getContent());
+                                                new IllegalArgumentException("No such data" + id));
+        board.update(requestDto.getTitle(), requestDto.getContent());
 
         return id;
     }

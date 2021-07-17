@@ -38,12 +38,12 @@ public class BoardApiControllerTest {
     private WebApplicationContext context;
 
     @AfterEach
-    public void tearDown() throws Exception {
+    public void tearDown() {
         boardRepository.deleteAll();
     }
 
     @Test
-    public void create() throws Exception {
+    public void create() {
         //given
         String title = "title";
         String content = "content";
@@ -69,13 +69,13 @@ public class BoardApiControllerTest {
     }
 
     @Test
-    public void update() throws Exception{
+    public void update() {
         // given
-        Board savedBoard = boardRepository.save(BoardCreateRequestDto.builder()
+        Board savedBoard = boardRepository.save(Board.builder()
                                                     .title("title")
                                                     .content("content")
                                                     .writer("tester")
-                                                    .build().toEntity());
+                                                    .build());
         Long id = savedBoard.getId();
         String expectedTitle = "modifiedTitle";
         String expectedContent = "modifiedContent";
