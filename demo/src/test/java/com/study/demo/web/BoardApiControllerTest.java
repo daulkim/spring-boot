@@ -1,8 +1,8 @@
 package com.study.demo.web;
 import com.study.demo.domain.board.Board;
 import com.study.demo.domain.board.BoardRepository;
-import com.study.demo.web.dto.BoardCreateRequestDto;
-import com.study.demo.web.dto.BoardUpdateRequestDto;
+import com.study.demo.domain.dto.BoardCreateRequestDto;
+import com.study.demo.domain.dto.BoardUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

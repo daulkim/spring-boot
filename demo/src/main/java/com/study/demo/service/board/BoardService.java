@@ -1,16 +1,14 @@
 package com.study.demo.service.board;
 
 import com.study.demo.domain.board.Board;
-import com.study.demo.web.dto.BoardCreateRequestDto;
+import com.study.demo.domain.dto.BoardCreateRequestDto;
 import com.study.demo.domain.board.BoardRepository;
-import com.study.demo.web.dto.BoardReponseDto;
-import com.study.demo.web.dto.BoardUpdateRequestDto;
+import com.study.demo.domain.dto.BoardReponseDto;
+import com.study.demo.domain.dto.BoardUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
-import org.hibernate.boot.model.naming.IllegalIdentifierException;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.Optional;
 
 @RequiredArgsConstructor
 @Service

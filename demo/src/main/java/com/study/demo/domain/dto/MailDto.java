@@ -1,4 +1,4 @@
-package com.study.demo.domain;
+package com.study.demo.domain.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

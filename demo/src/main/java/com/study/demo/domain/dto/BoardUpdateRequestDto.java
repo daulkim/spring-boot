@@ -1,4 +1,4 @@
-package com.study.demo.web.dto;
+package com.study.demo.domain.dto;
 
 import lombok.Builder;
 import lombok.Getter;

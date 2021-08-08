@@ -1,9 +1,9 @@
-package com.study.demo.web;
+package com.study.demo.controller;
 
 import com.study.demo.service.board.BoardService;
-import com.study.demo.web.dto.BoardCreateRequestDto;
-import com.study.demo.web.dto.BoardReponseDto;
-import com.study.demo.web.dto.BoardUpdateRequestDto;
+import com.study.demo.domain.dto.BoardCreateRequestDto;
+import com.study.demo.domain.dto.BoardReponseDto;
+import com.study.demo.domain.dto.BoardUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
