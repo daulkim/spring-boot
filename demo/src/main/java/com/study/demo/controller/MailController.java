@@ -1,6 +1,6 @@
 package com.study.demo.controller;
 
-import com.study.demo.domain.dto.MailDto;
+import com.study.demo.dto.MailDto;
 import com.study.demo.service.MailService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;

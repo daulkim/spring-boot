@@ -1,10 +1,10 @@
-package com.study.demo.service.board;
+package com.study.demo.service;
 
-import com.study.demo.domain.board.Board;
-import com.study.demo.domain.dto.BoardCreateRequestDto;
-import com.study.demo.domain.board.BoardRepository;
-import com.study.demo.domain.dto.BoardReponseDto;
-import com.study.demo.domain.dto.BoardUpdateRequestDto;
+import com.study.demo.entity.Board;
+import com.study.demo.dto.BoardCreateRequestDto;
+import com.study.demo.repository.BoardRepository;
+import com.study.demo.dto.BoardReponseDto;
+import com.study.demo.dto.BoardUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

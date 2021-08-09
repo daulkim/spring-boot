@@ -29,8 +29,8 @@ logging:
 jwt:
   header: Authorization
   #HS512 알고리즘을 사용할 것이기 때문에 512bit, 즉 64byte 이상의 secret key를 사용해야 한다.
-  #echo 'spring-boot-study-demo-spring-boot-study-secret'|base64
-  secret: c3ByaW5nLWJvb3Qtc3R1ZHktZGVtby1zcHJpbmctYm9vdC1zdHVkeS1zZWNyZXQ=
+  #echo 'spring-boot-study-demo-spring-boot-study-demo-spring-boot-study-demo-secret'|base64
+  secret: c3ByaW5nLWJvb3Qtc3R1ZHktZGVtby1zcHJpbmctYm9vdC1zdHVkeS1kZW1vLXNwcmluZy1ib290LXN0dWR5LWRlbW8tc2VjcmV0
   token-validity-in-seconds: 86400
 
 

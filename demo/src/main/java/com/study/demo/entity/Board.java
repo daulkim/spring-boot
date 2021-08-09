@@ -1,10 +1,8 @@
-package com.study.demo.domain.board;
+package com.study.demo.entity;
 
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
-import org.hibernate.annotations.Generated;
 
 import javax.persistence.*;
 

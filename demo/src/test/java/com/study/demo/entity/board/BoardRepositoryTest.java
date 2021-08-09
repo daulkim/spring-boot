@@ -1,6 +1,7 @@
-package com.study.demo.domain.board;
+package com.study.demo.entity.board;
 
-import org.assertj.core.api.Assertions;
+import com.study.demo.entity.Board;
+import com.study.demo.repository.BoardRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +10,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
 class BoardRepositoryTest {
